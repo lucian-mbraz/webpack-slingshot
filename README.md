@@ -8,6 +8,10 @@ Clone down this repository. `git clone https://github.com/lucian-mbraz/webpack-s
 
 You will need `node` and `npm` installed globally on your machine. (`https://nodejs.org/en/download/`)
 
+### Install project dependencies
+
+To install project dependencies, locate the `package.json` file. Open a command prompt in it's directory and execute `npm install`
+
 ### Running the project
 
 In the opened prompt, run the command `npm start`. It should open the browser pointed at `http://localholhost:8080` and voilá.
@@ -16,8 +20,8 @@ In the opened prompt, run the command `npm start`. It should open the browser po
 
 To produce a optmized build with minified files, run the following command: `npm run build`
 
-And thats it, good luck !
-
 ### Next steps ...
 
 Configure tests
+
+And thats it, good luck !
